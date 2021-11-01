@@ -3,6 +3,12 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: ausgangslage
-- file: notebooks
+
+parts:
+- caption: Einführung
+  chapters:
+  - file: intro
+-caption: Ausgangslage
+  chapters:
+  - file: 1_ebooks
+  - file: 1_verlage
