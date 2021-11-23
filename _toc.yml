@@ -7,5 +7,5 @@ root: 0_intro
 parts:
 - caption: Daten
   chapters:
-  - file: tidy_dbs_data
-  - file: 1_verlage
+  - file: 1_tidy_dbs_data
+  - file: 1_tidy_pop_data
