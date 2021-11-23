@@ -9,3 +9,8 @@ parts:
   chapters:
   - file: 1_tidy_dbs_data
   - file: 1_tidy_pop_data
+  - file: 1_get_other_data
+  - file: 1_summary_data
+- caption: Visualisierung
+  chapters:
+  - file: 2_basiscs_viusalized
