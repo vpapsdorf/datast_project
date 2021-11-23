@@ -13,4 +13,4 @@ parts:
   - file: 1_summary_data
 - caption: Visualisierung
   chapters:
-  - file: 2_basiscs_viusalized
+  - file: 2_basics_viusalized
