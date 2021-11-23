@@ -109,6 +109,16 @@
    Bevölkerungsstatistik
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_get_other_data.html">
+   Weitere Daten
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_summary_data.html">
+   Zusammenfassen der Daten
+  </a>
+ </li>
 </ul>
 
     </div>
@@ -241,6 +251,11 @@
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#werte-in-floats-umwandeln">
      Werte in Floats umwandeln
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#index-als-spalte">
+     Index als Spalte
     </a>
    </li>
   </ul>
@@ -625,6 +640,16 @@ Jahr
 </div>
 </div>
 </div>
+<div class="section" id="index-als-spalte">
+<h3>Index als Spalte<a class="headerlink" href="#index-als-spalte" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">library_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="section" id="bereinigte-daten">
 <h2>Bereinigte Daten<a class="headerlink" href="#bereinigte-daten" title="Permalink to this headline">¶</a></h2>
@@ -653,6 +678,7 @@ Jahr
   <thead>
     <tr style="text-align: right;">
       <th>Auspraegung</th>
+      <th>Jahr</th>
       <th>Ausg. Erwerbung</th>
       <th>Best. virt.Best.</th>
       <th>Bestand insges</th>
@@ -663,22 +689,11 @@ Jahr
       <th>Entleiher</th>
       <th>Lfd. Ausgaben</th>
     </tr>
-    <tr>
-      <th>Jahr</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
-      <th>2010</th>
+      <th>0</th>
+      <td>2010</td>
       <td>9.684262e+07</td>
       <td>457360.0</td>
       <td>123027730.0</td>
@@ -690,7 +705,8 @@ Jahr
       <td>8.222172e+08</td>
     </tr>
     <tr>
-      <th>2011</th>
+      <th>1</th>
+      <td>2011</td>
       <td>9.952656e+07</td>
       <td>591069.0</td>
       <td>122796523.0</td>
@@ -702,7 +718,8 @@ Jahr
       <td>8.459510e+08</td>
     </tr>
     <tr>
-      <th>2012</th>
+      <th>2</th>
+      <td>2012</td>
       <td>1.006906e+08</td>
       <td>829951.0</td>
       <td>122025276.0</td>
@@ -714,7 +731,8 @@ Jahr
       <td>8.582293e+08</td>
     </tr>
     <tr>
-      <th>2013</th>
+      <th>3</th>
+      <td>2013</td>
       <td>1.042136e+08</td>
       <td>1265499.0</td>
       <td>121235283.0</td>
@@ -726,7 +744,8 @@ Jahr
       <td>8.748400e+08</td>
     </tr>
     <tr>
-      <th>2014</th>
+      <th>4</th>
+      <td>2014</td>
       <td>1.043534e+08</td>
       <td>1622216.0</td>
       <td>119858476.0</td>
@@ -738,7 +757,8 @@ Jahr
       <td>9.021050e+08</td>
     </tr>
     <tr>
-      <th>2015</th>
+      <th>5</th>
+      <td>2015</td>
       <td>1.049348e+08</td>
       <td>1134853.0</td>
       <td>117511823.0</td>
@@ -750,7 +770,8 @@ Jahr
       <td>9.218251e+08</td>
     </tr>
     <tr>
-      <th>2016</th>
+      <th>6</th>
+      <td>2016</td>
       <td>1.089445e+08</td>
       <td>1491330.0</td>
       <td>116080149.0</td>
@@ -762,7 +783,8 @@ Jahr
       <td>9.484614e+08</td>
     </tr>
     <tr>
-      <th>2017</th>
+      <th>7</th>
+      <td>2017</td>
       <td>1.099277e+08</td>
       <td>1305260.0</td>
       <td>113808636.0</td>
@@ -774,7 +796,8 @@ Jahr
       <td>9.462734e+08</td>
     </tr>
     <tr>
-      <th>2018</th>
+      <th>8</th>
+      <td>2018</td>
       <td>1.113161e+08</td>
       <td>1780716.0</td>
       <td>112176481.0</td>
@@ -786,7 +809,8 @@ Jahr
       <td>9.712075e+08</td>
     </tr>
     <tr>
-      <th>2019</th>
+      <th>9</th>
+      <td>2019</td>
       <td>1.141910e+08</td>
       <td>2977275.0</td>
       <td>110813254.0</td>
@@ -798,7 +822,8 @@ Jahr
       <td>1.006269e+09</td>
     </tr>
     <tr>
-      <th>2020</th>
+      <th>10</th>
+      <td>2020</td>
       <td>1.118397e+08</td>
       <td>4440515.0</td>
       <td>108085305.0</td>
@@ -821,6 +846,7 @@ Jahr
 </div>
 <div class="cell_output docutils container">
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Auspraegung
+Jahr                 object
 Ausg. Erwerbung     float64
 Best. virt.Best.    float64
 Bestand insges      float64
